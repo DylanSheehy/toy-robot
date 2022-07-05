@@ -72,9 +72,3 @@ class Robot():
         Helper method to get english representation of current orientation
         """
         return self.orientations[self.orientation_index]
-    
-
-            
-
-
-

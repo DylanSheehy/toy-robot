@@ -109,6 +109,3 @@ def test_move_function_does_allow_robot_to_fall(mock_robot):
 def test_report(mock_robot):
     mock_robot.place(Point(3,4),"north")
     assert mock_robot.report() == "I am currently at (3,4) facing NORTH"
-
-
-
