@@ -8,14 +8,14 @@ class Point():
     
     def greater_than(self, point):
         """
-        Method to decided if either x and y of a given point are greater than this one
+        Method to decide if either x and y of a given point are greater than this one
         :param point:
         """
         return self.x >= point.x and self.y >= point.y
     
     def less_than(self, point):
         """
-        Method to decided if either x and y of a given point are less than this one
+        Method to decide if either x and y of a given point are less than this one
         :param point:
         """
         return self.x <= point.x and self.y <= point.y

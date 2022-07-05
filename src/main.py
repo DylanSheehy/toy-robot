@@ -2,7 +2,6 @@
 
 import logging
 import argparse
-import sys
 
 from table import Table
 from robot import Robot
@@ -63,8 +62,6 @@ def __run_input_data(data, robot):
             robot.move()
         case "report":
             print(robot.report())
-        case "exit":
-            sys.exit()
         case _:
             return
     
